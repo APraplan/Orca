@@ -1,0 +1,13 @@
+{
+    "from": "User",
+    "gcode_flavor": "klipper",
+    "inherits": "Prusa MINI 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_end_gcode": "PRINT_END",
+    "machine_pause_gcode": "PAUSE",
+    "machine_start_gcode": "M109 S0\n\nM190 S0\n\nPRINT_START EXTRUDER_TEMP={first_layer_temperature[initial_extruder]} BED_TEMP={first_layer_bed_temperature[initial_extruder]}",
+    "name": "MINI",
+    "print_host": "https://shared-R3F79K7ID2RRO9KO6KG464XI45KQAD1Q.octoeverywhere.com",
+    "printer_settings_id": "MINI",
+    "version": "1.9.0.2"
+}
